@@ -1,10 +1,12 @@
 import React from "react";
+import ComingSoon from "./components/pages/comingSoon/ComingSoon";
 
 function App() {
   return (
     <div className="App">
       
-          Learn React
+      <ComingSoon />
+      
       
     </div>
   );

@@ -1,0 +1,59 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    color: white;
+    height: 169px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.navbrand{
+    flex: 6;
+    background-color: transparent;
+    opacity: 1; 
+    padding: 20px;
+    margin-left: 98px;
+    display: flex;
+    flex-direction: column;
+}
+.metricks{
+    height:70px;
+    width: 50px;
+    justify-content: center;
+}
+.metricksText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.navRight{
+    flex: 6;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 46px 145px 46px 0;
+}
+.navItems{
+    display: inline;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px 25px;
+}
+.navItems:hover{
+    background: #271AC1 ;
+    
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #09090991;
+    cursor: pointer;
+}
