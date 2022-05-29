@@ -19,13 +19,16 @@ a{
     flex: 6;
     background-color: transparent;
     opacity: 1; 
-    padding: 20px;
+    padding: 30px;
     margin-left: 98px;
     display: flex;
     flex-direction: column;
 }
+.navbrand:hover{
+    cursor: pointer;
+}
 .metricks{
-    height:70px;
+    height: 50px;
     width: 50px;
     justify-content: center;
 }
