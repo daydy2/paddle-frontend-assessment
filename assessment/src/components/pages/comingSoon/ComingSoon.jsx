@@ -38,17 +38,27 @@ const ComingSoon = () => {
           <section className={coming.loginForm}>
             <form >
               <label for="fName">
-                <input type="text" name='fName' id='fName' placeholder='First Name..'/>
+                <input type="text" name='fName' id='fName' className={coming.formInput} placeholder='First Name..'/>
               </label>
               <label for="lName">
-                <input type="text" name='lName' id='lName' placeholder='Last Name..'/>
+                <input type="text" name='lName' id='lName' className={coming.formInput} placeholder='Last Name..'/>
               </label>
-              <label for="email">
-                <input type="email" name='email' id={coming.email}/>
-              </label>
+              <div className={coming.inputSubmit}>
+                <label for="email">
+                  <input type="email" name='email' id='email' size='25' className={coming.emailInput} placeholder='Enter your email address..'/>
+                </label>
+                <button type="submit" className={coming.buttonSub}>Join the waiting list</button>
+              </div>
+              
             </form>
+            <div className= {coming.ellipse3}></div>
           </section>
+          <footer>
+          <div className= {coming.ellipse4}></div>
+          </footer>
+
       </main>
+      
 
     </>
   )
