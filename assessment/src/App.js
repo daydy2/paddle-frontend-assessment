@@ -1,12 +1,13 @@
 import React from "react";
-import ComingSoon from "./components/pages/comingSoon/ComingSoon";
+import ContactUs from "./components/pages/contactUs/ContactUs";
+// import ComingSoon from "./components/pages/comingSoon/ComingSoon";
 
 function App() {
   return (
     <div className="App">
       
-      <ComingSoon />
-      
+      {/* <ComingSoon /> */}
+      <ContactUs />
       
     </div>
   );

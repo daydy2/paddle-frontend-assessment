@@ -18,7 +18,9 @@ const ComingSoon = () => {
         </section>
         <div className={coming.ellipse2}></div>
         <section className={coming.countdownTimer}>
-            <div className={`${coming.countdownStyle} ${coming.countdownDays}`}>
+            
+          <div className={coming.column1}>
+            <div className={`${coming.countdownStyle} ${coming.countdownM}`}>
               <p className={coming.countdownNumber}>7</p>
               <span className={coming.countdownTag}>Days</span>
             </div>
@@ -26,7 +28,11 @@ const ComingSoon = () => {
               <p className={coming.countdownNumber}>24</p>
               <span className={coming.countdownTag}>Hours</span>
             </div>
-            <div className={`${coming.countdownStyle} ${coming.countdownMargin} ${coming.countdownMin}`}>
+          </div>
+
+
+        <div className={coming.column2}>
+          <div className={`${coming.countdownStyle} ${coming.countdownMargin} ${coming.countdownMin}`}>
               <p className={coming.countdownNumber}>54</p>
               <span className={coming.countdownTag}>Minutes</span>
             </div>
@@ -34,6 +40,9 @@ const ComingSoon = () => {
               <p className={coming.countdownNumber}>11</p>
               <span className={coming.countdownTag}>Seconds</span>
             </div>
+        </div>
+            
+            
           </section>
           <section className={coming.loginForm}>
             <form >

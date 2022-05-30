@@ -7,6 +7,7 @@ body{
     color: white;
 }
 .main{
+    width: 100vw;
     background: linear-gradient(#1F0042, #11012C);
     position: relative;
 }
@@ -73,6 +74,19 @@ body{
     left: 130px;
     top: -140px;
 }
+.column1, .column2{
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+}
+.column1{
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.column2{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .countdownStyle{
     background: white;
     color: black;        
@@ -102,9 +116,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
-.loginForm{    
-    /* height: 33px; */
-}
+
 .loginForm .formInput{
     color: #56515D;
     background: inherit;
@@ -197,4 +209,239 @@ footer{
     opacity: 100;
     backdrop-filter: blur(27px);
     -webkit-backdrop-filter: blur(27px);
+}
+
+@media only screen and (max-width: 1100px) and (min-width:1023px) {
+    .main{
+        width: 100vw;
+    }
+    .landingPageDiv{
+        width: 40vw;
+        left: 400px;
+        
+    }
+    .landingPageText{
+        font-size: 32px;        
+    }
+    .ellipse2{
+        left: 850px;
+        top: -185px;
+    }
+    .loginForm .formInput{
+        left: 350px;
+    }
+    .inputSubmit{
+        left: 300px;
+    }
+    .ellipse3{
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width:700px) {
+    .ellipse1{
+        left: 90px;
+    }
+    .landingPageDiv{
+        width: 50vw;
+        left: 230px;        
+    }
+    .landingPageText{
+        font-size: 32px;        
+    }
+    .landingPageSummary{
+        font-size: 17px;
+    }
+    .ellipse2{
+        left: 650px;
+        top: -199px;
+    }
+    .countdownStyle{
+                
+        width: 100px;
+        height: 114px;
+    }
+    .countdownTimer{
+        left: 40px;
+        top: -180px;
+    }
+    .loginForm .formInput{
+        left: 180px;
+        top: -160px;
+        width: 200px;
+    }
+    .inputSubmit{
+        left: 190px;
+        top: -140px;
+        width: 464px;
+        height: 47px;
+        padding-top: 14px;
+        padding-bottom: 10px;
+        padding-left: 25px;        
+    }
+    .buttonSub{
+        height: 47px;
+        top: -0px;
+        left: 265px;
+        width: 200px;
+        font-size: 14px;
+    }
+    .emailInput{
+        font-size: 14px;
+    }
+    .ellipse3{
+        left: 120px;
+        top: -57px;
+    }
+}
+@media screen and (max-width:500px) and (min-width: 400px) {
+    .ellipse1{
+        left: 90px;
+        height: 123px;
+        width: 120px;
+    }
+    .landingPageDiv{
+        width: 50vw;
+        left: 200px;        
+    }
+    .landingPageText{
+        font-size: 22px;
+        text-align: right;        
+    }
+    .landingPageSummary > p{
+        font-size: 15px;
+        text-align: end;
+    }
+    .ellipse2{
+        display: none;
+        left: 650px;
+        top: -199px;
+    }
+    .countdownStyle{
+        width: 80px;
+        height: 94px;
+        margin-top: 4px;        
+    }
+    .countdownTimer{
+        left: 40px;
+        top: -70px;
+    }
+    .column1, .column2{
+        display: flex;
+        flex-direction: column;
+    }
+    .column2{
+        margin-right: 0px;
+    }
+    .countdownM{
+        margin-left:15px;
+    }
+    .loginForm .formInput{
+        left: 180px;
+        top: -80px;
+        width: 200px;
+    }
+    .inputSubmit{
+        left: 150px;
+        top: -60px;
+        width: 264px;
+        height: 47px;
+        padding-top: 14px;
+        padding-bottom: 10px;
+        padding-left: 25px;        
+    }
+    .buttonSub{
+        height: 47px;
+        top: 60px;
+        left: 60px;
+        width: 200px;
+        font-size: 14px;
+        z-index:9;
+    }
+    .emailInput{
+        font-size: 14px;
+    }
+    .ellipse3{
+        left: 50px;
+        top: -37px;
+    }
+}
+@media screen and (max-width:399px) and (min-width: 300px) {
+    .ellipse1{
+        left: 40px;
+        height: 123px;
+        width: 120px;
+    }
+    .landingPageDiv{
+        width: 50vw;
+        left: 180px;        
+    }
+    .landingPageText{
+        font-size: 22px;
+        text-align: right;        
+    }
+    .landingPageSummary > p{
+        font-size: 15px;
+        text-align: end;
+    }
+    .ellipse2{
+        display: none;
+        left: 650px;
+        top: -199px;
+    }
+    .countdownStyle{
+        width: 80px;
+        height: 94px;
+        margin-top: 4px;        
+    }
+    .countdownTimer{
+        left: 15px;
+        top: -50px;
+    }
+    .column1, .column2{
+        display: flex;
+        flex-direction: column;
+    }
+    .column2{
+        margin-right: 0px;
+    }
+    .countdownM{
+        margin-left:15px;
+    }
+    .loginForm .formInput{
+        left: 145px;
+        top: -55px;
+        width: 200px;
+    }
+    .inputSubmit{
+        left: 110px;
+        border-end-end-radius: 0;
+        border-start-end-radius: 0;
+        top: -40px;
+        width: 264px;
+        height: 47px;
+        padding-top: 14px;
+        padding-bottom: 10px;
+        padding-left: 25px;        
+    }
+    .countdownMin{
+        border-end-end-radius: 0;
+        border-start-end-radius: 0;   
+    }
+    .buttonSub{
+        height: 47px;
+        top: 60px;
+        left: 63px;
+        width: 200px;
+        font-size: 14px;
+        z-index:9;
+        border-end-end-radius: 0;
+        border-start-end-radius: 0;
+    }
+    .emailInput{
+        font-size: 14px;
+    }
+    .ellipse3{
+        left: 50px;
+        top: -37px;
+    }
 }

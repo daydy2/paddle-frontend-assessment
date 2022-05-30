@@ -23,6 +23,7 @@ a{
     margin-left: 98px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 .navbrand:hover{
     cursor: pointer;
@@ -38,12 +39,14 @@ a{
 }
 .navRight{
     flex: 6;
+    
 }
 .navList{
     list-style: none;
     display: flex;
     justify-content: flex-end;
     margin: 46px 145px 46px 0;
+    white-space: nowrap;
 }
 .navItems{
     display: inline;
@@ -59,4 +62,9 @@ a{
     border-radius: 15px;
     box-shadow: 0px 0px 10px #09090991;
     cursor: pointer;
+}
+@media screen and (max-width: 1439px) and (min-width: 1023px) {
+   .navitems{
+       padding: 10px 5px;
+   } 
 }
