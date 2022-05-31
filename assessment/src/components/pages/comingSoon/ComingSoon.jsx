@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import coming from './comingSoon.module.css'
 
+
 const ComingSoon = () => {
+  
   return (
     <>
       <main className={coming.main}>
@@ -63,12 +65,11 @@ const ComingSoon = () => {
             <div className= {coming.ellipse3}></div>
           </section>
           <footer>
-          <div className= {coming.ellipse4}></div>
+          <div className= {coming.halfSegment}></div>
           </footer>
 
       </main>
       
-
     </>
   )
 }
