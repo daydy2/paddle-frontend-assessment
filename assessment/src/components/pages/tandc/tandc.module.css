@@ -13,6 +13,11 @@ p{
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: start;
+    opacity: 0.6;
+}
+p > ol{
+    padding-left: 40px;
+    list-style-type:lower-roman ;
 }
 h3{
     font-size: 4.3rem;
@@ -60,4 +65,71 @@ h3{
 }
 article{
     margin-bottom: 60px;
+}
+.tncFooter{
+    width: 40vw;
+    height: 150px;
+    margin-left: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .section1{
+        width: 90vw;
+        padding: 125px 0 40px 9.4vw;
+    }
+    .main{
+        overflow-x: hidden;
+    }
+    p{
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    h3{
+        font-size: 3.8rem;
+    }
+    .tandcHeading{
+        font-size: 5rem;
+    }
+    .rectangle1{
+        left: 50px;
+        width: 130px;
+        height: 133px;
+    }
+    .tncFooter{
+        margin-left: 25vw;
+        width: 50vw;
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    .main{
+        overflow-x: hidden;
+    }
+    .rectangle1{
+        left: 50px;
+        width: 130px;
+        height: 133px;
+    }
+    .tncFooter{
+        margin-left: 25vw;
+        width: 50vw;
+        margin-top: 0 !important;
+    }
+    p{
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    h3{
+        font-size: 3.8rem;
+    }
+    .tandcHeading{
+        font-size: 5rem;
+    }
+    
+
 }

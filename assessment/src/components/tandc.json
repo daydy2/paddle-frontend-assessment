@@ -93,18 +93,25 @@
     {
         "number": "13",
         "heading": "12. Limitation Of Liability",
-        "desc1": "1. In no event shall Metricks, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.",
-        "desc2": "1. In no event shall Metricks, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose." ,
-        "desc3": "3. From time to time it may be necessary to suspend access to the Service for some time and any such interruptions shall not constitute a breach by us of these Terms.",
-        "desc4": "4. The User agrees that the above exclusions of liability are reasonable in all the circumstances, especially because our Service includes only the provision of the Service and responsibility for any payment to Affiliates lies solely with the Advertisers."
+        "desc1": "1. In no event shall Metricks, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from" ,
+        "desc2": "your access to or use of or inability to access or use the Service;",
+        "desc3": "any conduct or content of any third party on the Service;",
+        "desc4": "any content obtained from the Service;",
+        "desc5": "unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.",
+        "desc6": "2. Your access to the Service may be occasionally restricted to allow for repairs, maintenance or the introduction of new facilities or services. We will attempt to restore the Service as soon as we reasonably can. Your access to the Service may be occasionally restricted to allow for repairs, maintenance or the introduction of new facilities or services. We will attempt to restore the Service as soon as we reasonably can. Your access to the Service may be occasionally restricted to allow for repairs, maintenance or the introduction of new facilities or services. We will attempt to restore the Service as soon as we reasonably can." ,
+        "desc7": "3. From time to time it may be necessary to suspend access to the Service for some time and any such interruptions shall not constitute a breach by us of these Terms.",
+        "desc8": "4. The User agrees that the above exclusions of liability are reasonable in all the circumstances, especially because our Service includes only the provision of the Service and responsibility for any payment to Affiliates lies solely with the Advertisers."
     },
     {
         "number": "14",
-        "heading": "13. Publicity"
+        "heading": "13. Publicity",
+        "desc1": "In further consideration of the rights granted hereunder to the User, User agrees to permit Metricks to use User’s name and trademarks and service marks to identify User as Metricks’s customer on the Website, in Metricks’s marketing materials and other sales and marketing activities, provided that User does not notify Metricks in writing of its revocation of such permission. User agrees to cooperate with Metricks in reasonable publicity efforts involving the System, such as, for example, media releases and marketing materials following Metricks's reasonable request."
+        
     },
     {
         "number": "15",
-        "heading": "Your Privacy"
+        "heading": "Your Privacy",
+        "desc1": "Please read our Privacy Policy."
     },
     {
         "number": "16",
@@ -118,16 +125,20 @@
         "desc7": "7. You must not upload, post, host, or transmit unsolicited emails or “spam” messages.",
         "desc8": "8. You must not transmit any worms or viruses or any code of a destructive nature." ,
         "desc9": "9. If your bandwidth usage exceeds the monthly limit or significantly exceeds the average bandwidth usage, we reserve the right to immediately suspend your account or throttle your file hosting until you can reduce your bandwidth consumption or upgrade your account.",
-        "desc10": "10. We do not warrant that (i) the Service will meet your specific requirements, (ii) the Service will be uninterrupted, timely, secure, or error-free, (iii) the results that may be obtained from the use of the Service will be accurate or reliable, (iv) the quality of any products, the Service, information, or other material purchased or obtained by you through the Service will meet your expectations.",
-        "desc11": "11. The failure of Metricks to exercise or enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. These Terms constitute the entire agreement between you and Metricks and govern your use of the Service, superseding any prior agreements between you and Metricks (including, but not limited to, any prior versions of these Terms).",
-        "desc12": "12. Neither party will be liable to the other or be deemed to be in breach of these Terms because of any delay in performing, or any failure to perform, any of their obligations if the delay or failure was due to any event of force majeure beyond their reasonable control such as severe weather, subsidence, power or other utility cut-offs, burglary, natural disaster, strikes, governmental action, terrorism, war or civil unrest.",
-        "desc13": "13. The parties agree that these Terms are fair and reasonable in all circumstances. However, if any provision of these Terms is held not to be valid by a court of competent jurisdiction but would be valid if part of the wording were deleted, then such provision shall apply with such deletions as may be necessary to make it valid. If any of the provisions in these terms are held not to be valid the remaining provisions of these terms shall remain in full force and effect.",
-        "desc14": "14. If you breach these terms and conditions and we decide to take no action or neglect to do so, then we will still be entitled to take action and enforce our rights and remedies for any other breach.",
-        "desc15": "15. We may make changes to the format of the Service or the content of the Service at any time without notice.",
-        "desc16": "16. Advertisers will be solely responsible for the registration of Affiliates. Such registration can be executed for instance through a branded registration page, as a result of which Affiliates might receive transactional emails from Metricks.",
-        "desc17": "17. The Advertiser will impose these general terms and conditions unconditionally upon all its Affiliates and is and will be on all circumstances liable for any infringement on these terms by any Affiliate and/or any claim brought forward by one or more Affiliates.",
-        "desc18": "18. Affiliates who registered before a white label was activated by the Advertiser, will not be able to use the custom subdomain or the domain alias to log in on the affiliate portal. As a result of this, they will not be able to see the custom branding. They will be able however to promote the programs of the Advertiser and all Affiliate links will remain active",
-        "desc19": "19. Once a domain alias has been created, without any costs, this alias can be changed during the first 7 days. After this term of 7 days, Metricks will be entitled to charge extra costs for such change."
+        "desc10": "10. We do not warrant that ",
+        "desc11": "the Service will meet your specific requirements,",
+        "desc12": "the Service will be uninterrupted, timely, secure, or error-free,",
+        "desc13": "the results that may be obtained from the use of the Service will be accurate or reliable,",
+        "desc14": "the quality of any products, the Service, information, or other material purchased or obtained by you through the Service will meet your expectations.",
+        "desc15": "11. The failure of Metricks to exercise or enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. These Terms constitute the entire agreement between you and Metricks and govern your use of the Service, superseding any prior agreements between you and Metricks (including, but not limited to, any prior versions of these Terms).",
+        "desc16": "12. Neither party will be liable to the other or be deemed to be in breach of these Terms because of any delay in performing, or any failure to perform, any of their obligations if the delay or failure was due to any event of force majeure beyond their reasonable control such as severe weather, subsidence, power or other utility cut-offs, burglary, natural disaster, strikes, governmental action, terrorism, war or civil unrest.",
+        "desc17": "13. The parties agree that these Terms are fair and reasonable in all circumstances. However, if any provision of these Terms is held not to be valid by a court of competent jurisdiction but would be valid if part of the wording were deleted, then such provision shall apply with such deletions as may be necessary to make it valid. If any of the provisions in these terms are held not to be valid the remaining provisions of these terms shall remain in full force and effect.",
+        "desc18": "14. If you breach these terms and conditions and we decide to take no action or neglect to do so, then we will still be entitled to take action and enforce our rights and remedies for any other breach.",
+        "desc19": "15. We may make changes to the format of the Service or the content of the Service at any time without notice.",
+        "desc20": "16. Advertisers will be solely responsible for the registration of Affiliates. Such registration can be executed for instance through a branded registration page, as a result of which Affiliates might receive transactional emails from Metricks.",
+        "desc21": "17. The Advertiser will impose these general terms and conditions unconditionally upon all its Affiliates and is and will be on all circumstances liable for any infringement on these terms by any Affiliate and/or any claim brought forward by one or more Affiliates.",
+        "desc22": "18. Affiliates who registered before a white label was activated by the Advertiser, will not be able to use the custom subdomain or the domain alias to log in on the affiliate portal. As a result of this, they will not be able to see the custom branding. They will be able however to promote the programs of the Advertiser and all Affiliate links will remain active",
+        "desc23": "19. Once a domain alias has been created, without any costs, this alias can be changed during the first 7 days. After this term of 7 days, Metricks will be entitled to charge extra costs for such change."
     },
     {
         "number": "17",
@@ -140,6 +151,11 @@
         "heading": "16. Terms of Service Modifications",
         "desc1": "1.The User acknowledges having read this agreement, understands it and agrees to be bound by its terms. The person accepting this agreement on the User’s behalf through Metricks’s online registration process or employing a User order represents that he/she has the authority to bind User to these terms and conditions.",
         "desc2": "2. The User further acknowledges that this Agreement does not have to be signed to be binding. User will have indicated its assent to the terms of the Agreement by clicking on the 'Accepted and Agreed To' (or similar button) that is presented to the user at the time of its opening of an online account with Metricks and submitting an order for the Cloud Services through Metricks’s online registration process on the Website " 
+    },
+    {
+        "number": "19",
+        "heading": "Contact Us",
+        "desc1": "If you have any questions about these Terms, please contact us over live chat or email support@metricks.io"
     }
 ]
 

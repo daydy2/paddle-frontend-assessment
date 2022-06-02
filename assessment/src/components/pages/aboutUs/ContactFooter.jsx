@@ -1,14 +1,10 @@
-import aboutStyles from '../pages/contactUs/contactUs.module.css'
+import aboutStyles from './about.module.css'
 
 
+const ContactFooter = () => {
 
-
-const footercontact = () => {
     return(<>
-        <footer className={aboutStyles.footer}>
-              
-              
-        <div className={aboutStyles.firstFlex}>             
+      <div className={aboutStyles.firstFlex}>             
                 <a to="#"><i class="fa-brands fa-2x fa-youtube"></i></a>
                 <a to="#"><i class="fa-brands fa-2x fa-facebook-square"></i></a>
                 <a to="#"><i class="fa-brands fa-2x fa-linkedin"></i></a>
@@ -22,7 +18,6 @@ const footercontact = () => {
               <div className={aboutStyles.thirdFlex}>
                 <span className={`${aboutStyles.footerSpan} ${aboutStyles.copyright}`}>Copyright 2021 @ Peddle Technologies. All Rights Reserved.</span>
               </div>
-      </footer>
     </>)
   }
-  export default footercontact
+  export default ContactFooter

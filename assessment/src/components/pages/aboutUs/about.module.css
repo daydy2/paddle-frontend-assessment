@@ -265,3 +265,32 @@ footer{
 .fa-youtube{
     opacity: 0.9 !important;
 }
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .footer{        
+        margin-left: 10vw;
+        margin-left: 25vw;
+        width: 50vw;
+    }
+    .copyright{
+    font-size: 1.2rem;
+    }
+    .secondFlex{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    .footer{
+        
+        margin-left: 10vw;
+        margin-left: 25vw;
+        width: 50vw;
+    }
+
+    .copyright{
+    font-size: 1.2rem;
+    }
+    .secondFlex{
+        font-size: 1.2rem;
+    }  
+}
