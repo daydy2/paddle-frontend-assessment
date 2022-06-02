@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import aboutStyles from './about.module.css'
 
+
 const About = () => {
   return (
     <>
@@ -94,7 +95,7 @@ const About = () => {
             </div>
           </section>
           <footer className={aboutStyles.footer}>
-              <div className={aboutStyles.firstFlex}>             
+          <div className={aboutStyles.firstFlex}>             
               <a to="#"><i class="fa-brands fa-2x fa-youtube"></i></a>
               <a to="#"><i class="fa-brands fa-2x fa-facebook-square"></i></a>
               <a to="#"><i class="fa-brands fa-2x fa-linkedin"></i></a>
