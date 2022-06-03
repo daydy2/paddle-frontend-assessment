@@ -489,3 +489,239 @@ button:hover{
         top: 15px;
     }
 }
+@media screen and (max-width: 500px) and (min-width: 400px){
+    .main{
+        overflow-x: hidden;
+    }
+    .sectional1{
+        height: 200.62px;
+    }
+    .innerRec{
+        height: 109.62px;
+        width: 170px;        
+        left: 180px;
+        top: 35px;
+    }
+    .outerRec{        
+        height: inherit;
+        width: 500px;        
+        top: -110px;
+    }
+    .sectionText{
+        width: 3500px;
+        height: 150px;
+        z-index: 4;
+        font-family: sans-serif;
+        font-weight: light;
+        margin-top: -270px;
+        left: 50px;
+        color: white;
+    }
+    .sectionText > hr{
+        width: 39px !important;
+    }
+    .paging > h4, .heading {
+        margin-top: 1px;
+        font-size: 1.3rem;
+    }
+    .big_desc{
+        font-size: 2.0rem;
+    }
+    .sectionalTAble{
+        font-size: 1.1rem;
+        flex-direction: column;
+        
+    }
+    .sectionalTableUl{
+        list-style: none;
+    }
+    .sectional3 > h2{
+    font-size: 3.4rem;
+    }
+    .sectional3 > p{
+        font-size: 1.6rem;
+        opacity: 0.7;
+    }
+    .shareSocial{
+        width: 50vw;
+        margin-left: calc((100vw - 50vw)/2);
+        margin-right: calc((100vw - 50vw)/2);
+    }
+    .shareSocial > p{
+        margin-top: 15px;
+    }
+    .rect4{
+        top: -85px ;
+        left: 220px;
+        width: 200px;
+        height: 120px;
+    }
+    .rect3{
+        left: 280px;
+        height: 110px;
+        width: 85px;
+        top: 35px;
+    }
+    .sectional7{
+        height: 270px;
+    }
+    button{
+        margin-left: 30px !important;
+    }
+    .sectional5Text > p{
+        width: 400px;
+        font-size: 1.2rem;
+        left: 10px;
+        margin-top: 25px;
+    }
+    .rect1{
+        left:240px;
+        height:40px ;
+        top: 35px;
+    }
+    form{
+        font-size: 1.8rem;
+    }
+    .sectional7Text > h2{
+        font-size: 1.2rem;
+    }
+    .sectional7Text{
+        top: -199px;
+        left: 20px;
+    }
+    .sectional7{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 399px) and (min-width: 300px){
+    .main{
+        overflow-x: hidden;
+    }
+    .sectional1{
+        height: 200.62px;
+    }
+    .innerRec{
+        height: 109.62px;
+        width: 170px;        
+        left: 180px;
+        top: 35px;
+    }
+    .outerRec{        
+        height: inherit;
+        width: 500px;        
+        top: -110px;
+    }
+    .sectionText{
+        width: 3500px;
+        height: 150px;
+        z-index: 4;
+        font-family: sans-serif;
+        font-weight: light;
+        margin-top: -270px;
+        left: 50px;
+        color: white;
+    }
+    .sectionText > hr{
+        width: 39px !important;
+    }
+    .paging > h4, .heading {
+        margin-top: 1px;
+        font-size: 1.3rem;
+    }
+    .big_desc{
+        font-size: 2.0rem;
+    }
+    .sectionalTAble{
+        font-size: 1.1rem;
+        flex-direction: column;
+        
+    }
+    .sectionalTableUl{
+        list-style: none;
+    }
+    .sectional3 > h2{
+    font-size: 3.4rem;
+    }
+    .sectional3 > p{
+        font-size: 1.6rem;
+        opacity: 0.7;
+    }
+    .shareSocial{
+        width: 50vw;
+        margin-left: calc((100vw - 50vw)/2);
+        margin-right: calc((100vw - 50vw)/2);
+    }
+    .shareSocial > p{
+        margin-top: 15px;
+    }
+    .rect4{
+        top: -85px ;
+        left: 200px;
+        width: 170px;
+        height: 120px;
+    }
+    .rect3{
+        left: 280px;
+        height: 110px;
+        width: 85px;
+        top: 35px;
+    }
+    .sectional7{
+        height: 270px;
+    }
+    button{
+        margin-left: 30px !important;
+    }
+    .sectional5Text > p{
+        width: 400px;
+        font-size: 1.2rem;
+        left: 10px;
+        margin-top: 25px;
+    }
+    .rect1{
+        left:240px;
+        height:40px ;
+        top: 35px;
+    }
+    .rect2{
+        height: 140px;
+        top: -40px;
+    }
+    form{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+    .sectional7Text > h2{
+        font-size: 1.2rem;
+    }
+    .sectional7Text{
+        top: -199px;
+        left: 20px;
+    }
+    .sectional7{
+        height: 200px;
+    }
+    .shareSocial{
+        width: 70vw;
+        margin-left: calc((100vw - 70vw)/2);
+        margin-right: calc((100vw - 70vw)/2);
+        margin-bottom: 15px;
+    }
+    input{
+        padding: 10px;
+        outline: none;
+        width:75vw;        
+        font-size: 1.3rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    textarea{
+        padding: 10px;
+        outline: none;
+        width: 75vw;       
+        font-size: 1.3rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+}

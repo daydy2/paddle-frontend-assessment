@@ -11,15 +11,35 @@ html{
     position: absolute;
 } */
 .main{
+    display: flex;
+    position: relative;
+    z-index: 5;
+    margin-top: -1180px;
+}
+.section1{
+    flex: 6;
+    background: transparent;
+    opacity: 1;
+    box-shadow: 0.5px 0.5px 3px 0.5px rgba(128, 128, 128, 0.295);
+    background: rgba(128, 128, 128, 0.295);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+.section2{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#1F0042, #11012C);
+}
+.main1{
     background: transparent ;
     /* linear-gradient(180deg, #210045 0%, #0C0123 100%) 0% 0% no-repeat padding-box */
     opacity: 1;
-    color: white;
-    width: 50vw;
+    color: black;
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 50vw;
     border: 1px solid black;
     /* transition: 2ms ease-in-out; */
 }

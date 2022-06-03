@@ -1,14 +1,34 @@
-import React from 'react'
-import Navbar from '../../navbar/Navbar'
+import React, { useState } from 'react'
+// import Navbar from '../../navbar/Navbar'
+import navbar from '../../navbar/navbar.module.css'
 import coming from './comingSoon.module.css'
-
+import metricks from '../../images/metricks-white.png'
+import contact from '../../pages/contactUs/contactUs.module.css'
+// import ContactFooter from '../../pages/aboutUs/ContactFooter'
 
 const ComingSoon = () => {
-  
+  const [active, setActive] = useState(false)
+  const handleClick = () => {
+    setActive(!active)
+  }
+
+
   return (
     <>
       <main className={coming.main}>
-        <Navbar />
+          <nav className={navbar.navbar}>
+            <div className={navbar.navbrand}>
+                <img src={metricks} className={navbar.metricks} alt="company's brand"  />
+                <p className={navbar.metricksText}>METRICKS</p>
+             </div>
+             <div className={navbar.navRight}>
+                <ul className={navbar.navList}>
+                  <li className={navbar.navItems}><a to="#">About Us</a></li>
+                  <li className={navbar.navItems}><a to="#"></a>Blog</li>
+                  <li className={navbar.navItems} onClick={handleClick}><a to="#">Contact us</a></li>
+                </ul>
+              </div>
+          </nav>
         <div className={coming.ellipse1}></div>
         <section className={coming.landingPageDiv}>
           <p className={coming.landingPageText}>
@@ -64,8 +84,12 @@ const ComingSoon = () => {
             </form>
             <div className= {coming.ellipse3}></div>
           </section>
+          {active && <ContactUs active1={active}/>}
           <footer>
-          <div className= {coming.halfSegment}></div>
+            {/* <div className={coming.footer}>
+              <ContactFooter />
+            </div> */}
+            
           </footer>
 
       </main>
@@ -75,3 +99,51 @@ const ComingSoon = () => {
 }
 
 export default ComingSoon
+
+
+const ContactUs = (props) => {
+
+  const handleClick = (event) => {
+    event.preventDefault()
+  }
+  // const arrowClick = () => {
+  //   setActive(!active)
+  // }
+
+  return (
+    <>
+      <main className={contact.main}>
+        <section className={contact.section1}></section>
+        <section className={contact.section2}>
+
+          <main className={contact.main1} >
+            <div className={contact.textDiv}>
+              <p className={contact.contactText}>
+                Hey, we are still in the works, but you can send us a message!
+              </p>
+            </div>
+            <div className={contact.divForm}>
+              <form className={contact.formFill} onSubmit={handleClick}>
+                <label for="fName">First name</label>
+                <input name= 'fName' id='fName' type='text' placeholder='Enter your First name'></input>
+                <label for="lName">Last name</label>
+                <input name='lName' id='lName' type='text' placeholder='Enter your Last name'></input>
+                <label for="email">Email address</label>
+                <input name='email' id='email' type='email' placeholder='Enter your Email address'></input>
+                <label for="text">Tell Us What You Need Help With:</label>
+                <textarea name="text" id="text" cols="15" rows="9" placeholder='Enter a Topic, like "Channel Problem..."'></textarea>
+                <button type="submit">Send Now</button>
+              </form>
+            </div>
+          </main>
+
+        </section>
+      </main> 
+        
+      <div className={contact.sideArrow} >
+        <i class="fa-solid fa-2x fa-arrow-right"></i>
+      </div>
+    </>
+  )
+}
+
