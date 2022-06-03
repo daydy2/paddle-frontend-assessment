@@ -1,5 +1,6 @@
 import React from "react";
-import Private from "./components/pages/private/Private";
+import Blog3 from "./components/pages/blog3/Blog3";
+// import Private from "./components/pages/private/Private";
 // import About from "./components/pages/aboutUs/About";
 // import ContactUs from "./components/pages/contactUs/ContactUs";
 // import ComingSoon from "./components/pages/comingSoon/ComingSoon";
@@ -14,7 +15,8 @@ function App() {
       {/* <ContactUs /> */}
       {/* <About /> */}
       {/* <Tandc /> */}
-      <Private />
+      {/* <Private /> */}
+      <Blog3 />
     </div>
   );
 }

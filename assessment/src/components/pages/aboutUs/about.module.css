@@ -20,13 +20,9 @@ a:hover{
     cursor: pointer;
 }
 .main{
-    
     position: absolute;
     overflow-x: hidden;
     overflow-y: hidden;
-    
-    
-    
 }
 .rectangle1{
     width: 400px;
@@ -255,7 +251,7 @@ footer{
 .footerSpan{    
     padding-top:10px ;
     font-family: 'Poppins', sans-serif;
-    opacity: 0.63;
+    opacity: 0.83;
 }
 .copyright{
     font-size: 1.7rem;
@@ -279,6 +275,13 @@ footer{
         font-size: 1.2rem;
     }
 }
+
+
+
+
+
+
+
 @media only screen and (max-width: 400px) and (min-width: 300px) {
     .footer{
         
