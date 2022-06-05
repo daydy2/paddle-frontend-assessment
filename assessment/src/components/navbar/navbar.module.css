@@ -14,6 +14,8 @@ a{
     justify-content: space-between;
     align-items: flex-start;
     
+   
+    
 }
 .navbrand{
     flex: 6;
@@ -68,3 +70,15 @@ a{
        padding: 10px 5px;
    } 
 }
+@media screen and (max-width: 500px) and (min-width: 40px) {
+   .navitems{
+       padding: 10px 5px;
+   } 
+}
+
+
+
+
+
+
+

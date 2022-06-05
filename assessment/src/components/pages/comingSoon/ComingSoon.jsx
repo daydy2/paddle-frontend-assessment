@@ -4,6 +4,7 @@ import navbar from '../../navbar/navbar.module.css'
 import coming from './comingSoon.module.css'
 import metricks from '../../images/metricks-white.png'
 import contact from '../../pages/contactUs/contactUs.module.css'
+import '../../navbar/Navbar.css'
 // import ContactFooter from '../../pages/aboutUs/ContactFooter'
 
 const ComingSoon = () => {
@@ -12,23 +13,42 @@ const ComingSoon = () => {
     setActive(!active)
   }
 
+  const [prone, setProne] = useState('nav__menu')
+  const [toggleIcon, setToggleIcon] = useState('nav__toggler')
+  const navToggle = () => {
+    active === 'nav__menu' 
+    ? setProne('nav__menu nav__active') 
+    : setProne('nav__menu'); 
+    
+    // toggler action
+
+    toggleIcon === 'nav__toggler'
+    ? setToggleIcon('nav__toggler toggle')
+    : setToggleIcon('nav__toggler')
+  }
+
 
   return (
     <>
-      <main className={coming.main}>
+      <main className={coming.main} >
           <nav className={navbar.navbar}>
-            <div className={navbar.navbrand}>
-                <img src={metricks} className={navbar.metricks} alt="company's brand"  />
-                <p className={navbar.metricksText}>METRICKS</p>
-             </div>
-             <div className={navbar.navRight}>
-                <ul className={navbar.navList}>
-                  <li className={navbar.navItems}><a to="#">About Us</a></li>
-                  <li className={navbar.navItems}><a to="#"></a>Blog</li>
-                  <li className={navbar.navItems} onClick={handleClick}><a to="#">Contact us</a></li>
-                </ul>
-              </div>
-          </nav>
+          <div className={navbar.navbrand}>
+              <img src={metricks} className={navbar.metricks} alt="company's brand"  />
+              <p className={navbar.metricksText}>METRICKS</p>
+          </div>
+          <div className={navbar.navRight}>
+             <ul className={`${prone} ${navbar.navList}`} >
+                <li className={navbar.navItems}><a to="#">About Us</a></li>
+                <li className={navbar.navItems}><a to="#"></a>Blog</li>
+                <li className={navbar.navItems} onClick={handleClick}><a to="#"></a>Contact us</li>
+              </ul>
+          </div>
+          <div onClick = {navToggle} className={toggleIcon}>
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+          </div>
+        </nav>
         <div className={coming.ellipse1}></div>
         <section className={coming.landingPageDiv}>
           <p className={coming.landingPageText}>
@@ -84,13 +104,13 @@ const ComingSoon = () => {
             </form>
             <div className= {coming.ellipse3}></div>
           </section>
-          {active && <ContactUs active1={active}/>}
-          <footer>
+          {active && <ContactUs active={active} arrowChange={handleClick}/>}
+          {active? null :<footer>
             {/* <div className={coming.footer}>
               <ContactFooter />
             </div> */}
             
-          </footer>
+          </footer>}
 
       </main>
       
@@ -101,7 +121,7 @@ const ComingSoon = () => {
 export default ComingSoon
 
 
-const ContactUs = (props) => {
+const ContactUs = ({active, arrowChange}) => {
 
   const handleClick = (event) => {
     event.preventDefault()
@@ -140,7 +160,7 @@ const ContactUs = (props) => {
         </section>
       </main> 
         
-      <div className={contact.sideArrow} >
+      <div className={contact.sideArrow} onClick={arrowChange}>
         <i class="fa-solid fa-2x fa-arrow-right"></i>
       </div>
     </>
